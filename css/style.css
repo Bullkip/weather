@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+	margin: 0;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fafefe;
+	border: 10px solid #2b81ac;
+	background-color: #3399cc;
+	
+}
+header {
+
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.weather-container {
+	display: inline-block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	/*display: inline-block;*/
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	/*width: 100%*/
+	font-size: 25px;
+	border: 2px solid #fff;
+	/*text-align: center;
+	padding: 20px;
+	/*box-shadow: 0 0 0 0*/
+	/*margin-top: -4px;
+	margin-left: -4px;*/
+}
+
+.xs {
+	width: 25%
+}
+
+.md {
+	width: 50%;
+}

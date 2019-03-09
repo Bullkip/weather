@@ -19,12 +19,13 @@ body {
 }
 h1 {
 	display: inline-block;
+	margin-right: 10px;
 
 }
 
 
 .main-container {
-	width: 65%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -41,6 +42,7 @@ li {
 	padding: 30px;
 	font-size: 25px;
 	border: 2px solid #fff;
+	border-collapse: collapse;
 	
 }
 
@@ -92,7 +94,7 @@ li {
 
 
 .info-container {
-	margin-top: 10px;
+	margin-top: 5px;
 	color: rgba(250,254,254,0.7);
 
 }
@@ -102,15 +104,22 @@ li {
 
 }
 
-.temp:after{
+/*.temp:after{
 	content:  '\b0 С';
-	
 }
-
+*/
 
 i {
-	padding-left: 10px;
+	
 	font-size: 30px;
+}
+
+.wi {
+	vertical-align: middle;
+}
+
+.wi-celsius{
+	font-size: 40px;
 }
 
 p {
@@ -121,3 +130,4 @@ p {
 li:hover{
 	background-color: rgba(255,255,255,0.7);
 }
+

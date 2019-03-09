@@ -8,7 +8,7 @@ body {
 	margin: 0;
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 	color: #fafefe;
-	border: 10px solid #2b81ac;
+	border: 20px solid #2b81ac;
 	background-color: #3399cc;
 	
 }
@@ -17,31 +17,28 @@ header {
 }
 
 main {
-	width: 80%;
 	margin: 0 auto;
 }
 
-.weather-container {
-	display: inline-block;
+.city-container {
+	width: 65%;
+	margin: 0 auto;
 }
 
 ul {
 	margin: 0;
 	padding: 0;
-	/*display: inline-block;*/
 	list-style: none;
+	font-size: 0;
 }
 
 li {
 	display: inline-block;
-	/*width: 100%*/
+	text-align: center;
+	padding: 30px;
 	font-size: 25px;
 	border: 2px solid #fff;
-	/*text-align: center;
-	padding: 20px;
-	/*box-shadow: 0 0 0 0*/
-	/*margin-top: -4px;
-	margin-left: -4px;*/
+	
 }
 
 .xs {
@@ -50,4 +47,29 @@ li {
 
 .md {
 	width: 50%;
+}
+
+.lg{
+	width: 100%;
+}
+
+.info-container {
+	margin-top: 10px;
+	color: rgba(250,254,254,0.1);
+
+
+}
+
+.temp{
+	font-size: 30px;
+
+}
+
+.temp:after{
+	content:  '\b0';
+}
+
+i {
+	padding-left: 10px;
+	font-size: 30px;
 }

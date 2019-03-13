@@ -41,6 +41,7 @@ li {
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
+	white-space: wrap;
 	padding: 30px;
 	font-size: 25px;
 	white-space: nowrap;
@@ -60,37 +61,37 @@ li {
 	width: 100%;
 }
 
-.color-1 {
+.DodgerBlue {
 	background-color: #3399cc;
 }
-.color-2 {
+.Cyan {
 	background-color: #33cccc;
 }
-.color-3 {
+.DarkOrchid {
 	background-color: #996699;
 }
-.color-4 {
+.FireBrick {
 	background-color: #c24747;
 }
-.color-5 {
+.Tomato {
 	background-color: #e2674a;
 }
-.color-6 {
+.Yellow {
 	background-color: #ffcc66;
 }
-.color-7 {
+.PaleGreen {
 	background-color: #99cc99;
 }
-.color-8 {
+.CadetBlue {
 	background-color: #669999;
 }
-.color-9 {
+.MediumOrchid {
 	background-color: #cc6699;
 }
-.color-10 {
+.SeaGreen {
 	background-color: #339969;
 }
-.color-11 {
+.BlueViolet {
 	background-color: #666699;
 }
 
@@ -130,6 +131,15 @@ ul:hover li {
 
 
 ul li:hover {
-	opacity: 1;
-	
+	opacity: 1;	
+}
+
+@media screen and (max-width: 576px) {
+	.xs {
+		width: 25%;
+
+	}
+	.md {
+		width: 50%;
+	}
 }

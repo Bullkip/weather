@@ -9,7 +9,7 @@ html{
 body {
 
     min-height: 100vh;
-    min-width: 1200px;
+    /*min-width: 1200px;*/
 	margin: 0;
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 	color: #fafefe;
@@ -26,6 +26,7 @@ h1 {
 
 .main-container {
 	width: 60%;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -41,7 +42,6 @@ li {
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
-	white-space: wrap;
 	padding: 30px;
 	font-size: 25px;
 	white-space: nowrap;
@@ -134,12 +134,32 @@ ul li:hover {
 	opacity: 1;	
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1060px) {
 	.xs {
-		width: 25%;
+		width: 100%;
 
 	}
 	.md {
-		width: 50%;
+		width: 100%;
+	}
+
+	li {
+		font-size: 40px;
+	}
+
+	p {
+		font-size: 35px;
+	}
+	
+	.temp {
+		font-size: 35px;
+	}
+
+	i {
+		font-size: 40px;
+	}
+
+	h1 {
+		font-size: 40px;
 	}
 }
